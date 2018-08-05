@@ -1,0 +1,25 @@
+{
+  "name": "withCanvas",
+  "version": "1.0.0",
+  "description": "Creates a new canvas, sets up mouse and keyboard events, and provides an animation frame loop.",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-web-module",
+    "clean": "nwb clean-module"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nwb": "0.21.x"
+  },
+  "author": "",
+  "homepage": "",
+  "license": "MIT",
+  "repository": ""
+}
