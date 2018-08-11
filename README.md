@@ -37,5 +37,6 @@ Upon initialization, the following callbacks will be called immediately:
 - `running`: True while the animation loop is running
 - `time`: Current time in milliseconds
 - `delta`: Milliseconds since last frame
+- `event`: Browser event. Included for resize, keyDown/Up and mouseDown/Up/Move/wheel callbacks
 - `constrain(value, min, max)`: Clip a value to a range
 - `map(value, inMin, inMax, outMin, outMax)`: Map a value from one range to another
